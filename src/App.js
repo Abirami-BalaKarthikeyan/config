@@ -135,12 +135,16 @@
 // src/App.js
 import React from "react";
 import CSVUploader from "../src/CSVUploader";
+import UserManagement from "../src/user-management/src/App.js"
+
 
 function App() {
   return (
     <div className="App">
       <div>Configuration</div>
+      <UserManagement/>
       <CSVUploader />
+  
     </div>
   );
 }
